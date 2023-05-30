@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export USER=Julia
+export MYDIRECTORY=Julia_Miller
+
+echo "your name is:" $USER
+echo "your working directory is:" $MYDIRECTORY
+echo "Number of users:"
+ps -ef | grep ssh
+echo "done"
